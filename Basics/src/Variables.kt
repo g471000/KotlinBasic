@@ -7,9 +7,14 @@
 class Variables {
     val name = "Jieun"
     var hobby = "Basketball"
+    var pet: String? = "Pikachu"
     fun main() {
         println("$name's hobby is $hobby.")
         hobby = "Coding with Kotlin"
         println("Now $name's hobby is $hobby.")
+
+        println("$name's pet was $pet.")
+        pet = null
+        println("but now her pet is $pet which means she doesn't have one.")
     }
 }
