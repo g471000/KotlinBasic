@@ -4,7 +4,6 @@
  *  and can not be assigned multiple times and can be Initialized only single
  *  time and is known as the immutable variable in Kotlin.
  */
-class Variables {
     val name = "Jieun"
     var hobby = "Basketball"
     var pet: String? = "Pikachu"
@@ -17,4 +16,3 @@ class Variables {
         pet = null
         println("but now her pet is $pet which means she doesn't have one.")
     }
-}
