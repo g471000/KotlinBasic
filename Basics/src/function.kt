@@ -6,11 +6,16 @@ fun getString(): String {
  * Unit is like void in Java
  */
 fun sayHello(): Unit {
-    print(getString())
+    println(getString())
 }
+
+fun getStringEasy() : String = "Hello Easy Kotlin!"
+
+fun sayEasyHello(): Unit = println(getStringEasy())
 
 fun main() {
     println("Hello Kotlin!")
     println(getString())
     sayHello()
+    sayEasyHello()
 }
