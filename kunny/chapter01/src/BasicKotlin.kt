@@ -2,8 +2,8 @@ fun main() {
     // don't need to write type such as String
     val name = "Jieun"
 
-    // do not use "new" keyword
-    val basic = BasicKotlin();
+//    // do not use "new" keyword
+//    val basic = BasicKotlin();
 
     // allow null (String)
     val foo: String? = null
@@ -24,8 +24,4 @@ fun main() {
     var bar3: String? = "bar"
     bar3 = "bar" // can assign other string
     bar3 = null // can assign null
-}
-
-class BasicKotlin {
-
 }
